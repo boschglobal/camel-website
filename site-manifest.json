@@ -1,6 +1,6 @@
 {
   "version": "3-dj.1",
-  "generated": 1641991635952,
+  "generated": 1642053252604,
   "url": "https://camel.apache.org",
   "components": [
     {
@@ -156,6 +156,12 @@
               "path": "configuration/dependencies.adoc",
               "url": "/camel-k/next/configuration/dependencies.html",
               "title": "Dependencies and Component Resolution"
+            },
+            {
+              "module": "ROOT",
+              "path": "configuration/http-proxy.adoc",
+              "url": "/camel-k/next/configuration/http-proxy.html",
+              "title": "HTTP Proxy"
             },
             {
               "module": "ROOT",
@@ -2600,6 +2606,18 @@
             },
             {
               "module": "ROOT",
+              "path": "reference/connectors/camel-aws-redshift-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-aws-redshift-sink-kafka-sink-connector.html",
+              "title": "camel-aws-redshift-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-aws-redshift-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-aws-redshift-source-kafka-source-connector.html",
+              "title": "camel-aws-redshift-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
               "path": "reference/connectors/camel-aws-s3-sink-kafka-sink-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-aws-s3-sink-kafka-sink-connector.html",
               "title": "camel-aws-s3-sink-kafka-connector sink configuration"
@@ -2615,6 +2633,12 @@
               "path": "reference/connectors/camel-aws-s3-streaming-upload-sink-kafka-sink-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-aws-s3-streaming-upload-sink-kafka-sink-connector.html",
               "title": "camel-aws-s3-streaming-upload-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-aws-secrets-manager-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-aws-secrets-manager-sink-kafka-sink-connector.html",
+              "title": "camel-aws-secrets-manager-sink-kafka-connector sink configuration"
             },
             {
               "module": "ROOT",
@@ -2732,15 +2756,9 @@
             },
             {
               "module": "ROOT",
-              "path": "reference/connectors/camel-couchbase-kafka-sink-connector.adoc",
-              "url": "/camel-kafka-connector/next/reference/connectors/camel-couchbase-kafka-sink-connector.html",
-              "title": "camel-couchbase-kafka-connector sink configuration"
-            },
-            {
-              "module": "ROOT",
-              "path": "reference/connectors/camel-couchbase-kafka-source-connector.adoc",
-              "url": "/camel-kafka-connector/next/reference/connectors/camel-couchbase-kafka-source-connector.html",
-              "title": "camel-couchbase-kafka-connector source configuration"
+              "path": "reference/connectors/camel-couchbase-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-couchbase-sink-kafka-sink-connector.html",
+              "title": "camel-couchbase-sink-kafka-connector sink configuration"
             },
             {
               "module": "ROOT",
@@ -2870,6 +2888,12 @@
             },
             {
               "module": "ROOT",
+              "path": "reference/connectors/camel-google-functions-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-google-functions-sink-kafka-sink-connector.html",
+              "title": "camel-google-functions-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
               "path": "reference/connectors/camel-google-mail-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-google-mail-source-kafka-source-connector.html",
               "title": "camel-google-mail-source-kafka-connector source configuration"
@@ -2891,6 +2915,18 @@
               "path": "reference/connectors/camel-google-sheets-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-google-sheets-source-kafka-source-connector.html",
               "title": "camel-google-sheets-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-google-storage-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-google-storage-sink-kafka-sink-connector.html",
+              "title": "camel-google-storage-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-google-storage-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-google-storage-source-kafka-source-connector.html",
+              "title": "camel-google-storage-source-kafka-connector source configuration"
             },
             {
               "module": "ROOT",
@@ -2933,6 +2969,12 @@
               "path": "reference/connectors/camel-https-kafka-sink-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-https-kafka-sink-connector.html",
               "title": "camel-https-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-infinispan-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-infinispan-sink-kafka-sink-connector.html",
+              "title": "camel-infinispan-sink-kafka-connector sink configuration"
             },
             {
               "module": "ROOT",
@@ -3029,6 +3071,12 @@
               "path": "reference/connectors/camel-mail-imap-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-mail-imap-source-kafka-source-connector.html",
               "title": "camel-mail-imap-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-mail-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-mail-sink-kafka-sink-connector.html",
+              "title": "camel-mail-sink-kafka-connector sink configuration"
             },
             {
               "module": "ROOT",
@@ -3140,9 +3188,33 @@
             },
             {
               "module": "ROOT",
+              "path": "reference/connectors/camel-pulsar-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-pulsar-sink-kafka-sink-connector.html",
+              "title": "camel-pulsar-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-pulsar-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-pulsar-source-kafka-source-connector.html",
+              "title": "camel-pulsar-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
               "path": "reference/connectors/camel-rabbitmq-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-rabbitmq-source-kafka-source-connector.html",
               "title": "camel-rabbitmq-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-redis-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-redis-sink-kafka-sink-connector.html",
+              "title": "camel-redis-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-redis-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-redis-source-kafka-source-connector.html",
+              "title": "camel-redis-source-kafka-connector source configuration"
             },
             {
               "module": "ROOT",
@@ -3188,6 +3260,18 @@
             },
             {
               "module": "ROOT",
+              "path": "reference/connectors/camel-solr-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-solr-sink-kafka-sink-connector.html",
+              "title": "camel-solr-sink-kafka-connector sink configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-solr-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-solr-source-kafka-source-connector.html",
+              "title": "camel-solr-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
               "path": "reference/connectors/camel-sqlserver-sink-kafka-sink-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-sqlserver-sink-kafka-sink-connector.html",
               "title": "camel-sqlserver-sink-kafka-connector sink configuration"
@@ -3197,6 +3281,12 @@
               "path": "reference/connectors/camel-sqlserver-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-sqlserver-source-kafka-source-connector.html",
               "title": "camel-sqlserver-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-ssh-sink-kafka-sink-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-ssh-sink-kafka-sink-connector.html",
+              "title": "camel-ssh-sink-kafka-connector sink configuration"
             },
             {
               "module": "ROOT",
@@ -3257,6 +3347,18 @@
               "path": "reference/connectors/camel-webhook-source-kafka-source-connector.adoc",
               "url": "/camel-kafka-connector/next/reference/connectors/camel-webhook-source-kafka-source-connector.html",
               "title": "camel-webhook-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-websocket-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-websocket-source-kafka-source-connector.html",
+              "title": "camel-websocket-source-kafka-connector source configuration"
+            },
+            {
+              "module": "ROOT",
+              "path": "reference/connectors/camel-wttrin-source-kafka-source-connector.adoc",
+              "url": "/camel-kafka-connector/next/reference/connectors/camel-wttrin-source-kafka-source-connector.html",
+              "title": "camel-wttrin-source-kafka-connector source configuration"
             },
             {
               "module": "ROOT",
@@ -6881,6 +6983,12 @@
               "path": "cron-source.adoc",
               "url": "/camel-kamelets/next/cron-source.html",
               "title": "<span class=\"image\"><img src=\"_images/kamelets/cron-source.svg\" alt=\"cron source\"></span> Cron Source"
+            },
+            {
+              "module": "ROOT",
+              "path": "delay-action.adoc",
+              "url": "/camel-kamelets/next/delay-action.html",
+              "title": "<span class=\"image\"><img src=\"_images/kamelets/delay-action.svg\" alt=\"delay action\"></span> Delay Action"
             },
             {
               "module": "ROOT",
